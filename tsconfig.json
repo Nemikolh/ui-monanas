@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noEmitHelpers": true,
+        "strictNullChecks": false,
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "lodash",
+            "d3-axis",
+            "d3-selection",
+            "d3-scale",
+            "d3-time",
+            "d3-shape",
+            "d3-interpolate",
+            "d3-color",
+            "d3-transition",
+            "d3-ease",
+            "d3-random"
+        ]
+    },
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}
